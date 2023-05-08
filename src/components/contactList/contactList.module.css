@@ -1,0 +1,25 @@
+.text {
+    display: inline-block;
+}
+
+.list {
+    list-style: circle;
+}
+
+.button {
+    width: 120px;
+    margin-left: 30px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: inset 1px -1px 15px 1px rgba(194, 9, 9, 0.79);
+    border-color: red;
+}
+
+.button:focus,
+.button:hover {
+    background-color: red;
+    color: white;
+}
